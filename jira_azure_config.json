@@ -1,0 +1,2585 @@
+{
+  "types": [
+    {
+      "direction": "Both",
+      "propertiesConfiguration": {
+        "properties": [
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "String",
+              "name": "Title (Summary)",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "title",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [],
+            "valueMapping": false,
+            "right": {
+              "dataType": "String",
+              "name": "Title",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "title",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "String",
+              "name": "Description",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "description",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [],
+            "valueMapping": false,
+            "right": {
+              "dataType": "String",
+              "name": "Description",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "description",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "IdLabel",
+              "name": "Assignee",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "assignee",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [
+              {
+                "leftValue": "_getint_unassigned",
+                "valueMappings": [
+                  {
+                    "default": false,
+                    "isDefault": false,
+                    "defaultValueMapping": false,
+                    "left": {
+                      "name": "Unassigned",
+                      "additionalData": null,
+                      "value": "_getint_unassigned"
+                    },
+                    "rightCondition": "",
+                    "defaultCopy": false,
+                    "right": {
+                      "name": "Unassigned",
+                      "additionalData": null,
+                      "value": "_getint_unassigned"
+                    },
+                    "leftCondition": ""
+                  }
+                ],
+                "rightValue": "_getint_unassigned",
+                "multipleSide": "",
+                "properties": [],
+                "direction": "Both"
+              },
+              {
+                "leftValue": "712020:667ccf30-7c9a-4686-89ab-c58b758a4028",
+                "valueMappings": [
+                  {
+                    "default": false,
+                    "isDefault": false,
+                    "defaultValueMapping": false,
+                    "left": {
+                      "name": "Arun Rao Malyala",
+                      "additionalData": null,
+                      "value": "712020:667ccf30-7c9a-4686-89ab-c58b758a4028"
+                    },
+                    "rightCondition": "",
+                    "defaultCopy": false,
+                    "right": {
+                      "name": "Arun Malyala",
+                      "additionalData": null,
+                      "value": "Arun Malyala <Arun.Malyala@techconsulting.tech>"
+                    },
+                    "leftCondition": ""
+                  }
+                ],
+                "rightValue": "Arun Malyala <Arun.Malyala@techconsulting.tech>",
+                "multipleSide": "",
+                "properties": [],
+                "direction": "Both"
+              }
+            ],
+            "valueMapping": false,
+            "right": {
+              "dataType": "IdLabel",
+              "name": "Assigned To",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "System.AssignedTo",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "IdLabel",
+              "name": "Reporter",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "User",
+                "internalFieldId": "reporter",
+                "tableName": null
+              },
+              "id": "reporter",
+              "internalType": "User",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": "reporter"
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [
+              {
+                "leftValue": "_getint_unassigned",
+                "valueMappings": [
+                  {
+                    "default": false,
+                    "isDefault": false,
+                    "defaultValueMapping": false,
+                    "left": {
+                      "name": "Unassigned",
+                      "additionalData": null,
+                      "value": "_getint_unassigned"
+                    },
+                    "rightCondition": "",
+                    "defaultCopy": false,
+                    "right": {
+                      "name": "Unassigned",
+                      "additionalData": null,
+                      "value": "_getint_unassigned"
+                    },
+                    "leftCondition": ""
+                  }
+                ],
+                "rightValue": "_getint_unassigned",
+                "multipleSide": "",
+                "properties": [],
+                "direction": "Both"
+              },
+              {
+                "leftValue": "712020:667ccf30-7c9a-4686-89ab-c58b758a4028",
+                "valueMappings": [
+                  {
+                    "default": false,
+                    "isDefault": false,
+                    "defaultValueMapping": false,
+                    "left": {
+                      "name": "Arun Rao Malyala",
+                      "additionalData": null,
+                      "value": "712020:667ccf30-7c9a-4686-89ab-c58b758a4028"
+                    },
+                    "rightCondition": "",
+                    "defaultCopy": false,
+                    "right": {
+                      "name": "Arun Malyala",
+                      "additionalData": null,
+                      "value": "Arun Malyala <Arun.Malyala@techconsulting.tech>"
+                    },
+                    "leftCondition": ""
+                  }
+                ],
+                "rightValue": "Arun Malyala <Arun.Malyala@techconsulting.tech>",
+                "multipleSide": "",
+                "properties": [],
+                "direction": "Both"
+              }
+            ],
+            "valueMapping": false,
+            "right": {
+              "dataType": "IdLabel",
+              "name": "Created By",
+              "options": {
+                "readonly": true,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "System.CreatedBy",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "ToLeft",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "IdLabel",
+              "name": "Sprint",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "Sprint",
+                "internalFieldId": "customfield_10020",
+                "tableName": null
+              },
+              "id": "sprint",
+              "internalType": "Sprint",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": "customfield_10020"
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [
+              {
+                "leftValue": "",
+                "valueMappings": [
+                  {
+                    "default": false,
+                    "isDefault": false,
+                    "defaultValueMapping": false,
+                    "left": {
+                      "name": "Backlog",
+                      "additionalData": null,
+                      "value": ""
+                    },
+                    "rightCondition": "",
+                    "defaultCopy": false,
+                    "right": {
+                      "name": "Backlog",
+                      "additionalData": null,
+                      "value": "Jira Workflow"
+                    },
+                    "leftCondition": ""
+                  }
+                ],
+                "rightValue": "Jira Workflow",
+                "multipleSide": "",
+                "properties": [],
+                "direction": "Both"
+              }
+            ],
+            "valueMapping": false,
+            "right": {
+              "dataType": "IdLabel",
+              "name": "Iteration Path",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "System.IterationPath",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          }
+        ],
+        "configurationType": "PropertyMappings"
+      },
+      "commentsConfiguration": {
+        "asPrivate": {
+          "left": false,
+          "right": false
+        },
+        "filters": {
+          "left": {
+            "conditions": [],
+            "mode": "Pass"
+          },
+          "right": {
+            "conditions": [],
+            "mode": "Pass"
+          }
+        },
+        "enableExperimentalCommentsEditing": false,
+        "enableExperimentalCommentsDeleting": false,
+        "insertOriginalAuthor": true,
+        "insertOriginalCreationDate": true,
+        "disablePairingComment": true,
+        "insertItemId": true,
+        "supportUsersMentionsInJira": false,
+        "enabled": true,
+        "configurationType": "Comments",
+        "conditions": {
+          "left": "",
+          "right": ""
+        },
+        "direction": "Both",
+        "privatePublic": {
+          "left": {
+            "privateComment": "Private",
+            "privateCommentVisibilityMapping": null,
+            "publicComment": "Public",
+            "publicCommentVisibilityMapping": null,
+            "treatRestrictedVisibilityCommentsAsPrivate": true
+          },
+          "right": {
+            "privateComment": "Private",
+            "privateCommentVisibilityMapping": null,
+            "publicComment": "Public",
+            "publicCommentVisibilityMapping": null,
+            "treatRestrictedVisibilityCommentsAsPrivate": true
+          }
+        }
+      },
+      "hierarchyConfiguration": {
+        "subtasks": {
+          "options": {
+            "left": null,
+            "right": null
+          },
+          "fixed": {
+            "left": null,
+            "right": null
+          },
+          "enabled": false
+        },
+        "configurationType": null,
+        "epics": {
+          "options": {
+            "left": null,
+            "right": null
+          },
+          "fixed": {
+            "left": null,
+            "right": null
+          },
+          "enabled": false
+        },
+        "enabled": false
+      },
+      "attachmentsConfiguration": {
+        "configurationType": "Attachments",
+        "enabled": false,
+        "onlyPublicCommentsAttachments": {
+          "left": false,
+          "right": false
+        },
+        "insertInPublicComment": {
+          "left": false,
+          "right": false
+        },
+        "left": {
+          "storage": {
+            "s3": {
+              "region": "",
+              "bucketName": "",
+              "key": "",
+              "secret": ""
+            }
+          }
+        },
+        "right": {
+          "storage": {
+            "s3": {
+              "region": "",
+              "bucketName": "",
+              "key": "",
+              "secret": ""
+            }
+          }
+        },
+        "direction": "Both"
+      },
+      "left": {
+        "id": "10001",
+        "name": "Task",
+        "internal": {
+          "hierarchyLevel": 0,
+          "name": "Task",
+          "id": "10001",
+          "projectName": null,
+          "projectId": null
+        }
+      },
+      "right": {
+        "id": "Task",
+        "name": "Task",
+        "internal": {}
+      },
+      "advancedConfiguration": {
+        "configurationType": "Advanced",
+        "postCreate": {
+          "left": "",
+          "right": ""
+        },
+        "syncConfiguration": {
+          "enabled": false,
+          "left": {
+            "create": true,
+            "update": true
+          },
+          "right": {
+            "create": true,
+            "update": true
+          }
+        }
+      },
+      "statusTransitionConfiguration": {
+        "mapping": {
+          "left": {
+            "dataType": "IdLabel",
+            "id": "status",
+            "name": "Status",
+            "options": {
+              "selectable": true,
+              "internalType": "Status",
+              "internalFieldId": "status"
+            }
+          },
+          "right": {
+            "dataType": "IdLabel",
+            "id": "status",
+            "name": "Status",
+            "options": {
+              "selectable": true,
+              "internalType": "Status",
+              "internalFieldId": "status"
+            }
+          }
+        },
+        "defaults": {
+          "left": {
+            "mode": "Skip",
+            "label": "",
+            "value": ""
+          },
+          "right": {
+            "mode": "Skip",
+            "label": "",
+            "value": ""
+          }
+        },
+        "values": [
+          {
+            "default": false,
+            "isDefault": false,
+            "defaultValueMapping": false,
+            "left": {
+              "name": "Done",
+              "additionalData": null,
+              "value": "10002"
+            },
+            "rightCondition": "",
+            "defaultCopy": false,
+            "right": {
+              "name": "Done",
+              "additionalData": null,
+              "value": "Done"
+            },
+            "leftCondition": ""
+          },
+          {
+            "default": false,
+            "isDefault": false,
+            "defaultValueMapping": false,
+            "left": {
+              "name": "In Progress",
+              "additionalData": null,
+              "value": "10001"
+            },
+            "rightCondition": "",
+            "defaultCopy": false,
+            "right": {
+              "name": "Doing",
+              "additionalData": null,
+              "value": "Doing"
+            },
+            "leftCondition": ""
+          },
+          {
+            "default": false,
+            "isDefault": false,
+            "defaultValueMapping": false,
+            "left": {
+              "name": "To Do",
+              "additionalData": null,
+              "value": "10000"
+            },
+            "rightCondition": "",
+            "defaultCopy": false,
+            "right": {
+              "name": "To Do",
+              "additionalData": null,
+              "value": "To Do"
+            },
+            "leftCondition": ""
+          }
+        ],
+        "groups": [
+          {
+            "leftValue": "10002",
+            "valueMappings": [
+              {
+                "default": false,
+                "isDefault": false,
+                "defaultValueMapping": false,
+                "left": {
+                  "name": "Done",
+                  "additionalData": null,
+                  "value": "10002"
+                },
+                "rightCondition": "",
+                "defaultCopy": false,
+                "right": {
+                  "name": "Done",
+                  "additionalData": null,
+                  "value": "Done"
+                },
+                "leftCondition": ""
+              }
+            ],
+            "rightValue": "Done",
+            "multipleSide": "",
+            "properties": [],
+            "direction": "Both"
+          },
+          {
+            "leftValue": "10001",
+            "valueMappings": [
+              {
+                "default": false,
+                "isDefault": false,
+                "defaultValueMapping": false,
+                "left": {
+                  "name": "In Progress",
+                  "additionalData": null,
+                  "value": "10001"
+                },
+                "rightCondition": "",
+                "defaultCopy": false,
+                "right": {
+                  "name": "Doing",
+                  "additionalData": null,
+                  "value": "Doing"
+                },
+                "leftCondition": ""
+              }
+            ],
+            "rightValue": "Doing",
+            "multipleSide": "",
+            "properties": [],
+            "direction": "Both"
+          },
+          {
+            "leftValue": "10000",
+            "valueMappings": [
+              {
+                "default": false,
+                "isDefault": false,
+                "defaultValueMapping": false,
+                "left": {
+                  "name": "To Do",
+                  "additionalData": null,
+                  "value": "10000"
+                },
+                "rightCondition": "",
+                "defaultCopy": false,
+                "right": {
+                  "name": "To Do",
+                  "additionalData": null,
+                  "value": "To Do"
+                },
+                "leftCondition": ""
+              }
+            ],
+            "rightValue": "To Do",
+            "multipleSide": "",
+            "properties": [],
+            "direction": "Both"
+          }
+        ],
+        "statusFieldsIds": {
+          "left": "status",
+          "right": "status"
+        },
+        "enabled": true
+      },
+      "status": "Enabled"
+    },
+    {
+      "direction": "Both",
+      "propertiesConfiguration": {
+        "properties": [
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "String",
+              "name": "Title (Summary)",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "title",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [],
+            "valueMapping": false,
+            "right": {
+              "dataType": "String",
+              "name": "Title",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "title",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "String",
+              "name": "Description",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "description",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [],
+            "valueMapping": false,
+            "right": {
+              "dataType": "String",
+              "name": "Description",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "description",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          }
+        ],
+        "configurationType": "PropertyMappings"
+      },
+      "commentsConfiguration": {
+        "asPrivate": {
+          "left": false,
+          "right": false
+        },
+        "filters": {
+          "left": {
+            "conditions": [],
+            "mode": "Pass"
+          },
+          "right": {
+            "conditions": [],
+            "mode": "Pass"
+          }
+        },
+        "enableExperimentalCommentsEditing": false,
+        "enableExperimentalCommentsDeleting": false,
+        "insertOriginalAuthor": true,
+        "insertOriginalCreationDate": true,
+        "disablePairingComment": true,
+        "insertItemId": true,
+        "supportUsersMentionsInJira": false,
+        "enabled": true,
+        "configurationType": "Comments",
+        "conditions": {
+          "left": "",
+          "right": ""
+        }
+      },
+      "hierarchyConfiguration": {
+        "subtasks": {
+          "options": {
+            "left": null,
+            "right": null
+          },
+          "fixed": {
+            "left": null,
+            "right": null
+          },
+          "enabled": false
+        },
+        "configurationType": null,
+        "epics": {
+          "options": {
+            "left": null,
+            "right": null
+          },
+          "fixed": {
+            "left": null,
+            "right": null
+          },
+          "enabled": false
+        },
+        "enabled": false
+      },
+      "attachmentsConfiguration": {
+        "configurationType": "Attachments",
+        "enabled": false,
+        "onlyPublicCommentsAttachments": {
+          "left": false,
+          "right": false
+        },
+        "insertInPublicComment": {
+          "left": false,
+          "right": false
+        },
+        "left": {
+          "storage": {
+            "s3": {
+              "region": "",
+              "bucketName": "",
+              "key": "",
+              "secret": ""
+            }
+          }
+        },
+        "right": {
+          "storage": {
+            "s3": {
+              "region": "",
+              "bucketName": "",
+              "key": "",
+              "secret": ""
+            }
+          }
+        }
+      },
+      "left": {
+        "id": "10005",
+        "name": "Subtask",
+        "internal": {
+          "hierarchyLevel": -1,
+          "name": "Subtask",
+          "id": "10005",
+          "projectName": null,
+          "projectId": null
+        }
+      },
+      "right": {
+        "id": "Issue",
+        "name": "Issue",
+        "internal": {}
+      },
+      "advancedConfiguration": {
+        "configurationType": "Advanced",
+        "postCreate": {
+          "left": "",
+          "right": ""
+        }
+      },
+      "statusTransitionConfiguration": {
+        "mapping": {
+          "left": {
+            "dataType": "IdLabel",
+            "name": "Status",
+            "options": {
+              "readonly": false,
+              "field": null,
+              "selectable": true,
+              "additionalInfo": "",
+              "concatenatedFields": null,
+              "internalType": "Status",
+              "internalFieldId": "",
+              "tableName": null
+            },
+            "id": "status",
+            "internalType": "Status",
+            "finalFieldId": null,
+            "value": null,
+            "internalFieldId": ""
+          },
+          "right": {
+            "dataType": "IdLabel",
+            "name": "Status",
+            "options": {
+              "readonly": false,
+              "field": null,
+              "selectable": true,
+              "additionalInfo": "",
+              "concatenatedFields": null,
+              "internalType": "Status",
+              "internalFieldId": "",
+              "tableName": null
+            },
+            "id": "status",
+            "internalType": "Status",
+            "finalFieldId": null,
+            "value": null,
+            "internalFieldId": ""
+          }
+        },
+        "defaults": {
+          "left": {
+            "mode": "Skip",
+            "label": "",
+            "value": ""
+          },
+          "right": {
+            "mode": "Skip",
+            "label": "",
+            "value": ""
+          }
+        },
+        "values": [
+          {
+            "default": false,
+            "isDefault": false,
+            "defaultValueMapping": false,
+            "left": {
+              "name": "Done",
+              "additionalData": null,
+              "value": "10002"
+            },
+            "rightCondition": "",
+            "defaultCopy": false,
+            "right": {
+              "name": "Done",
+              "additionalData": null,
+              "value": "Done"
+            },
+            "leftCondition": ""
+          },
+          {
+            "default": false,
+            "isDefault": false,
+            "defaultValueMapping": false,
+            "left": {
+              "name": "In Progress",
+              "additionalData": null,
+              "value": "10001"
+            },
+            "rightCondition": "",
+            "defaultCopy": false,
+            "right": {
+              "name": "Doing",
+              "additionalData": null,
+              "value": "Doing"
+            },
+            "leftCondition": ""
+          },
+          {
+            "default": false,
+            "isDefault": false,
+            "defaultValueMapping": false,
+            "left": {
+              "name": "To Do",
+              "additionalData": null,
+              "value": "10000"
+            },
+            "rightCondition": "",
+            "defaultCopy": false,
+            "right": {
+              "name": "To Do",
+              "additionalData": null,
+              "value": "To Do"
+            },
+            "leftCondition": ""
+          }
+        ],
+        "groups": [
+          {
+            "leftValue": "10002",
+            "valueMappings": [
+              {
+                "default": false,
+                "isDefault": false,
+                "defaultValueMapping": false,
+                "left": {
+                  "name": "Done",
+                  "additionalData": null,
+                  "value": "10002"
+                },
+                "rightCondition": "",
+                "defaultCopy": false,
+                "right": {
+                  "name": "Done",
+                  "additionalData": null,
+                  "value": "Done"
+                },
+                "leftCondition": ""
+              }
+            ],
+            "rightValue": "Done",
+            "multipleSide": "",
+            "properties": [],
+            "direction": "Both"
+          },
+          {
+            "leftValue": "10001",
+            "valueMappings": [
+              {
+                "default": false,
+                "isDefault": false,
+                "defaultValueMapping": false,
+                "left": {
+                  "name": "In Progress",
+                  "additionalData": null,
+                  "value": "10001"
+                },
+                "rightCondition": "",
+                "defaultCopy": false,
+                "right": {
+                  "name": "Doing",
+                  "additionalData": null,
+                  "value": "Doing"
+                },
+                "leftCondition": ""
+              }
+            ],
+            "rightValue": "Doing",
+            "multipleSide": "",
+            "properties": [],
+            "direction": "Both"
+          },
+          {
+            "leftValue": "10000",
+            "valueMappings": [
+              {
+                "default": false,
+                "isDefault": false,
+                "defaultValueMapping": false,
+                "left": {
+                  "name": "To Do",
+                  "additionalData": null,
+                  "value": "10000"
+                },
+                "rightCondition": "",
+                "defaultCopy": false,
+                "right": {
+                  "name": "To Do",
+                  "additionalData": null,
+                  "value": "To Do"
+                },
+                "leftCondition": ""
+              }
+            ],
+            "rightValue": "To Do",
+            "multipleSide": "",
+            "properties": [],
+            "direction": "Both"
+          }
+        ],
+        "statusFieldsIds": {
+          "left": "status",
+          "right": "status"
+        },
+        "enabled": true
+      },
+      "status": "Enabled"
+    },
+    {
+      "direction": "Both",
+      "propertiesConfiguration": {
+        "properties": [
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "String",
+              "name": "Title (Summary)",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "title",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [],
+            "valueMapping": false,
+            "right": {
+              "dataType": "String",
+              "name": "Title",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "title",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "String",
+              "name": "Description",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "description",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [],
+            "valueMapping": false,
+            "right": {
+              "dataType": "String",
+              "name": "Description",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "description",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "IdLabel",
+              "name": "Sprint",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "Sprint",
+                "internalFieldId": "customfield_10020",
+                "tableName": null
+              },
+              "id": "sprint",
+              "internalType": "Sprint",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": "customfield_10020"
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [
+              {
+                "leftValue": "",
+                "valueMappings": [
+                  {
+                    "default": false,
+                    "isDefault": false,
+                    "defaultValueMapping": false,
+                    "left": {
+                      "name": "Backlog",
+                      "additionalData": null,
+                      "value": ""
+                    },
+                    "rightCondition": "",
+                    "defaultCopy": false,
+                    "right": {
+                      "name": "Backlog",
+                      "additionalData": null,
+                      "value": "Jira Workflow"
+                    },
+                    "leftCondition": ""
+                  }
+                ],
+                "rightValue": "Jira Workflow",
+                "multipleSide": "",
+                "properties": [],
+                "direction": "Both"
+              }
+            ],
+            "valueMapping": false,
+            "right": {
+              "dataType": "IdLabel",
+              "name": "Iteration Path",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "System.IterationPath",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "Date",
+              "name": "Start date",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "customfield_10015",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [],
+            "valueMapping": false,
+            "right": {
+              "dataType": "DateTime",
+              "name": "Start Date",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "Microsoft.VSTS.Scheduling.StartDate",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "IdLabel",
+              "name": "Assignee",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "assignee",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [
+              {
+                "leftValue": "_getint_unassigned",
+                "valueMappings": [
+                  {
+                    "default": false,
+                    "isDefault": false,
+                    "defaultValueMapping": false,
+                    "left": {
+                      "name": "Unassigned",
+                      "additionalData": null,
+                      "value": "_getint_unassigned"
+                    },
+                    "rightCondition": "",
+                    "defaultCopy": false,
+                    "right": {
+                      "name": "Unassigned",
+                      "additionalData": null,
+                      "value": "_getint_unassigned"
+                    },
+                    "leftCondition": ""
+                  }
+                ],
+                "rightValue": "_getint_unassigned",
+                "multipleSide": "",
+                "properties": [],
+                "direction": "Both"
+              },
+              {
+                "leftValue": "712020:667ccf30-7c9a-4686-89ab-c58b758a4028",
+                "valueMappings": [
+                  {
+                    "default": false,
+                    "isDefault": false,
+                    "defaultValueMapping": false,
+                    "left": {
+                      "name": "Arun Rao Malyala",
+                      "additionalData": null,
+                      "value": "712020:667ccf30-7c9a-4686-89ab-c58b758a4028"
+                    },
+                    "rightCondition": "",
+                    "defaultCopy": false,
+                    "right": {
+                      "name": "Arun Malyala",
+                      "additionalData": null,
+                      "value": "Arun Malyala <Arun.Malyala@techconsulting.tech>"
+                    },
+                    "leftCondition": ""
+                  }
+                ],
+                "rightValue": "Arun Malyala <Arun.Malyala@techconsulting.tech>",
+                "multipleSide": "",
+                "properties": [],
+                "direction": "Both"
+              }
+            ],
+            "valueMapping": false,
+            "right": {
+              "dataType": "IdLabel",
+              "name": "Assigned To",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "System.AssignedTo",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "Date",
+              "name": "Due date",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "duedate",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [],
+            "valueMapping": false,
+            "right": {
+              "dataType": "DateTime",
+              "name": "Target Date",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": false,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "Microsoft.VSTS.Scheduling.TargetDate",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "Both",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          },
+          {
+            "formatters": {
+              "left": [],
+              "right": []
+            },
+            "defaults": {
+              "left": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              },
+              "right": {
+                "mode": "Skip",
+                "label": null,
+                "value": null
+              }
+            },
+            "left": {
+              "dataType": "IdLabel",
+              "name": "Reporter",
+              "options": {
+                "readonly": false,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "User",
+                "internalFieldId": "reporter",
+                "tableName": null
+              },
+              "id": "reporter",
+              "internalType": "User",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": "reporter"
+            },
+            "sharedMappingId": null,
+            "additional": {
+              "azureEmailIsJiraUsername": false
+            },
+            "options": {
+              "left": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              },
+              "right": {
+                "organizationId": null,
+                "onCreate": true,
+                "predefinedValue": "",
+                "assetsAql": null,
+                "assetsCanStoreMultiple": false,
+                "onUpdate": true,
+                "postCreate": false,
+                "predefinedValueLabel": "",
+                "filterOptionsQuery": ""
+              }
+            },
+            "groups": [
+              {
+                "leftValue": "_getint_unassigned",
+                "valueMappings": [
+                  {
+                    "default": false,
+                    "isDefault": false,
+                    "defaultValueMapping": false,
+                    "left": {
+                      "name": "Unassigned",
+                      "additionalData": null,
+                      "value": "_getint_unassigned"
+                    },
+                    "rightCondition": "",
+                    "defaultCopy": false,
+                    "right": {
+                      "name": "Unassigned",
+                      "additionalData": null,
+                      "value": "_getint_unassigned"
+                    },
+                    "leftCondition": ""
+                  }
+                ],
+                "rightValue": "_getint_unassigned",
+                "multipleSide": "",
+                "properties": [],
+                "direction": "Both"
+              },
+              {
+                "leftValue": "712020:667ccf30-7c9a-4686-89ab-c58b758a4028",
+                "valueMappings": [
+                  {
+                    "default": false,
+                    "isDefault": false,
+                    "defaultValueMapping": false,
+                    "left": {
+                      "name": "Arun Rao Malyala",
+                      "additionalData": null,
+                      "value": "712020:667ccf30-7c9a-4686-89ab-c58b758a4028"
+                    },
+                    "rightCondition": "",
+                    "defaultCopy": false,
+                    "right": {
+                      "name": "Arun Malyala",
+                      "additionalData": null,
+                      "value": "Arun Malyala <Arun.Malyala@techconsulting.tech>"
+                    },
+                    "leftCondition": ""
+                  }
+                ],
+                "rightValue": "Arun Malyala <Arun.Malyala@techconsulting.tech>",
+                "multipleSide": "",
+                "properties": [],
+                "direction": "Both"
+              }
+            ],
+            "valueMapping": false,
+            "right": {
+              "dataType": "IdLabel",
+              "name": "Created By",
+              "options": {
+                "readonly": true,
+                "field": null,
+                "selectable": true,
+                "additionalInfo": "",
+                "concatenatedFields": null,
+                "internalType": "",
+                "internalFieldId": "",
+                "tableName": null
+              },
+              "id": "System.CreatedBy",
+              "internalType": "",
+              "finalFieldId": null,
+              "value": null,
+              "internalFieldId": ""
+            },
+            "direction": "ToLeft",
+            "empty": {
+              "left": null,
+              "right": null
+            }
+          }
+        ],
+        "configurationType": "PropertyMappings"
+      },
+      "commentsConfiguration": {
+        "asPrivate": {
+          "left": false,
+          "right": false
+        },
+        "filters": {
+          "left": {
+            "conditions": [],
+            "mode": "Pass"
+          },
+          "right": {
+            "conditions": [],
+            "mode": "Pass"
+          }
+        },
+        "enableExperimentalCommentsEditing": false,
+        "enableExperimentalCommentsDeleting": false,
+        "insertOriginalAuthor": true,
+        "insertOriginalCreationDate": true,
+        "disablePairingComment": true,
+        "insertItemId": true,
+        "supportUsersMentionsInJira": false,
+        "enabled": true,
+        "configurationType": "Comments",
+        "conditions": {
+          "left": "",
+          "right": ""
+        }
+      },
+      "hierarchyConfiguration": {
+        "subtasks": {
+          "options": {
+            "left": null,
+            "right": null
+          },
+          "fixed": {
+            "left": null,
+            "right": null
+          },
+          "enabled": false
+        },
+        "configurationType": null,
+        "epics": {
+          "options": {
+            "left": null,
+            "right": null
+          },
+          "fixed": {
+            "left": null,
+            "right": null
+          },
+          "enabled": false
+        },
+        "enabled": false
+      },
+      "attachmentsConfiguration": {
+        "configurationType": "Attachments",
+        "enabled": false,
+        "onlyPublicCommentsAttachments": {
+          "left": false,
+          "right": false
+        },
+        "insertInPublicComment": {
+          "left": false,
+          "right": false
+        },
+        "left": {
+          "storage": {
+            "s3": {
+              "region": "",
+              "bucketName": "",
+              "key": "",
+              "secret": ""
+            }
+          }
+        },
+        "right": {
+          "storage": {
+            "s3": {
+              "region": "",
+              "bucketName": "",
+              "key": "",
+              "secret": ""
+            }
+          }
+        }
+      },
+      "left": {
+        "id": "10004",
+        "name": "Epic",
+        "internal": {
+          "hierarchyLevel": 1,
+          "name": "Epic",
+          "id": "10004",
+          "projectName": null,
+          "projectId": null
+        }
+      },
+      "right": {
+        "id": "Epic",
+        "name": "Epic",
+        "internal": {}
+      },
+      "advancedConfiguration": {
+        "configurationType": "Advanced",
+        "postCreate": {
+          "left": "",
+          "right": ""
+        }
+      },
+      "statusTransitionConfiguration": {
+        "mapping": {
+          "left": {
+            "dataType": "IdLabel",
+            "name": "Status",
+            "options": {
+              "readonly": false,
+              "field": null,
+              "selectable": true,
+              "additionalInfo": "",
+              "concatenatedFields": null,
+              "internalType": "Status",
+              "internalFieldId": "",
+              "tableName": null
+            },
+            "id": "status",
+            "internalType": "Status",
+            "finalFieldId": null,
+            "value": null,
+            "internalFieldId": ""
+          },
+          "right": {
+            "dataType": "IdLabel",
+            "name": "Status",
+            "options": {
+              "readonly": false,
+              "field": null,
+              "selectable": true,
+              "additionalInfo": "",
+              "concatenatedFields": null,
+              "internalType": "Status",
+              "internalFieldId": "",
+              "tableName": null
+            },
+            "id": "status",
+            "internalType": "Status",
+            "finalFieldId": null,
+            "value": null,
+            "internalFieldId": ""
+          }
+        },
+        "defaults": {
+          "left": {
+            "mode": "Skip",
+            "label": "",
+            "value": ""
+          },
+          "right": {
+            "mode": "Skip",
+            "label": "",
+            "value": ""
+          }
+        },
+        "values": [
+          {
+            "default": false,
+            "isDefault": false,
+            "defaultValueMapping": false,
+            "left": {
+              "name": "Done",
+              "additionalData": null,
+              "value": "10002"
+            },
+            "rightCondition": "",
+            "defaultCopy": false,
+            "right": {
+              "name": "Done",
+              "additionalData": null,
+              "value": "Done"
+            },
+            "leftCondition": ""
+          },
+          {
+            "default": false,
+            "isDefault": false,
+            "defaultValueMapping": false,
+            "left": {
+              "name": "In Progress",
+              "additionalData": null,
+              "value": "10001"
+            },
+            "rightCondition": "",
+            "defaultCopy": false,
+            "right": {
+              "name": "Doing",
+              "additionalData": null,
+              "value": "Doing"
+            },
+            "leftCondition": ""
+          },
+          {
+            "default": false,
+            "isDefault": false,
+            "defaultValueMapping": false,
+            "left": {
+              "name": "To Do",
+              "additionalData": null,
+              "value": "10000"
+            },
+            "rightCondition": "",
+            "defaultCopy": false,
+            "right": {
+              "name": "To Do",
+              "additionalData": null,
+              "value": "To Do"
+            },
+            "leftCondition": ""
+          }
+        ],
+        "groups": [
+          {
+            "leftValue": "10002",
+            "valueMappings": [
+              {
+                "default": false,
+                "isDefault": false,
+                "defaultValueMapping": false,
+                "left": {
+                  "name": "Done",
+                  "additionalData": null,
+                  "value": "10002"
+                },
+                "rightCondition": "",
+                "defaultCopy": false,
+                "right": {
+                  "name": "Done",
+                  "additionalData": null,
+                  "value": "Done"
+                },
+                "leftCondition": ""
+              }
+            ],
+            "rightValue": "Done",
+            "multipleSide": "",
+            "properties": [],
+            "direction": "Both"
+          },
+          {
+            "leftValue": "10001",
+            "valueMappings": [
+              {
+                "default": false,
+                "isDefault": false,
+                "defaultValueMapping": false,
+                "left": {
+                  "name": "In Progress",
+                  "additionalData": null,
+                  "value": "10001"
+                },
+                "rightCondition": "",
+                "defaultCopy": false,
+                "right": {
+                  "name": "Doing",
+                  "additionalData": null,
+                  "value": "Doing"
+                },
+                "leftCondition": ""
+              }
+            ],
+            "rightValue": "Doing",
+            "multipleSide": "",
+            "properties": [],
+            "direction": "Both"
+          },
+          {
+            "leftValue": "10000",
+            "valueMappings": [
+              {
+                "default": false,
+                "isDefault": false,
+                "defaultValueMapping": false,
+                "left": {
+                  "name": "To Do",
+                  "additionalData": null,
+                  "value": "10000"
+                },
+                "rightCondition": "",
+                "defaultCopy": false,
+                "right": {
+                  "name": "To Do",
+                  "additionalData": null,
+                  "value": "To Do"
+                },
+                "leftCondition": ""
+              }
+            ],
+            "rightValue": "To Do",
+            "multipleSide": "",
+            "properties": [],
+            "direction": "Both"
+          }
+        ],
+        "statusFieldsIds": {
+          "left": "status",
+          "right": "status"
+        },
+        "enabled": true
+      },
+      "status": "Enabled"
+    }
+  ],
+  "gitConfiguration": {
+    "jiraProjects": [],
+    "repositories": []
+  },
+  "configurations": [],
+  "plugins": {
+    "shared": []
+  },
+  "sharedMappingsIds": [],
+  "triggers": {
+    "left": {
+      "app": "Jira",
+      "artifactName": "left",
+      "connectionId": 10,
+      "className": "",
+      "configuration": {
+        "project": {
+          "id": "10000",
+          "key": "AA",
+          "name": "arun_azure"
+        },
+        "jql": "",
+        "fetchAllFields": false
+      }
+    },
+    "right": {
+      "app": "Azure",
+      "artifactName": "right",
+      "connectionId": 11,
+      "className": "",
+      "configuration": {
+        "project": {
+          "id": "aab47715-d327-4888-a54a-86dcf58ecfa8",
+          "name": "Jira Workflow",
+          "defaultTeam": null
+        },
+        "query": "",
+        "azureCollection": "DefaultCollection"
+      }
+    }
+  },
+  "suiteType": "SmartInt",
+  "advancedConfiguration": {
+    "scripting": {
+      "onBeforeStatusTransition": {
+        "left": "",
+        "right": ""
+      },
+      "onBeforeRequestObjectSent": {
+        "left": "",
+        "right": ""
+      },
+      "onBeforeCommentCreated": {
+        "left": "",
+        "right": ""
+      },
+      "onAfterItemFetched": {
+        "left": "",
+        "right": ""
+      },
+      "onBeforeIntegrationRuns": "",
+      "onBeforeSyncExecution": "",
+      "onAfterSyncExecution": ""
+    },
+    "customProperties": {
+      "serviceNowImageBaseUrl": ""
+    }
+  },
+  "version": "1.96"
+}
